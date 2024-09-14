@@ -1,0 +1,51 @@
+
+body {
+   margin: 10px;
+   background-image: url(back1.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+#nav  {
+   margin-top: 20px;
+   margin-left: 87%;
+   display: flex; 
+   align-content: center; 
+   width: fit-content;
+
+}
+#gmail {
+   width: 25px;
+   height: 25px;
+   margin: 10px;
+}
+#image {
+   width: 25px;
+   height: 25px;
+   margin: 10px;
+}
+#flask {
+   width: 25px;
+   height: 25px;
+   margin: 10px;
+}
+#grip {
+   width: 25px;
+   height: 25px;
+   margin: 10px;
+}
+#searchbar {
+   display: flex;
+   background-color: transparent;
+   flex-direction: column;
+   width: 650px;
+   margin-top: 70px;
+   margin-left: 30%;
+}
+#searchbox {
+   background-color: transparent;
+   border-radius: 50px ;
+   font-size: 20;
+   color: rgb(216, 202, 202);
+   
+}
+   
