@@ -10,8 +10,6 @@ body {
    margin-left: 87%;
    display: flex; 
    align-content: center; 
-   width: fit-content;
-
 }
 #gmail {
    width: 25px;
@@ -35,17 +33,63 @@ body {
 }
 #searchbar {
    display: flex;
+   flex-wrap: nowrap;
    background-color: transparent;
-   flex-direction: column;
    width: 650px;
    margin-top: 70px;
    margin-left: 30%;
 }
+#aspas {
+   display: flex;
+   flex-wrap: nowrap;
+   flex-direction: row;
+   padding: 10px;
+}
 #searchbox {
    background-color: transparent;
-   border-radius: 50px ;
+   border-radius: 50px;
    font-size: 20;
+   width: 50%;
+   margin: 10px;
+   margin-top: 15px;
    color: rgb(216, 202, 202);
-   
+}
+#mic {
+   width: 30px;
+   height: 30px;
+   border-radius: 100%;
+   margin-top: 15;   
+   margin-left: 300;
+}
+#glASS{
+   width: 30px;
+   height: 30px;
+   border-radius: 100%;
+   margin-top: 15;   
+}
+#links {
+   display: flex;
+   background-color: transparent;
+   margin: auto;
+   margin-left: 350;
+}
+#links > div {
+   margin: 15px;
+}
+#you {
+   width: 80px;
+   height: 80px;
+}
+#mail{
+   width : 50px;
+   height: 50px;
+   border-radius: 100%;
+   margin-top: 15;
+}
+#drive {
+   width: 50px;
+   height: 50px;
+   margin-left: 25;
+   margin-top: 14;
 }
    
